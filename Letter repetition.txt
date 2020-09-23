@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int i,x;
+    scanf("%d",&x);
+   printf("G");
+   
+            for(i=0;i<x;i++)
+            {
+                printf("o");
+            }
+    printf("d");
+    
+    /* Enteprinr your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
+
+
+
+//Given an integer - N, the letter 'o' must repeat for N times in the word Go...od.

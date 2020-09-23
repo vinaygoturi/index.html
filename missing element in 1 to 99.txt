@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int total=0,i;
+    int a[99];
+    for(i=0;i<99;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    total=(100*101)/2;
+    for(i=0;i<99;i++)
+    {
+        total=total-a[i];
+    }
+    printf("%d",total);
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
